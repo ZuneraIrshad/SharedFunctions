@@ -1,6 +1,6 @@
 import java.io.*;
 import groovy.io.*;
-
+@nonCPS
 def call(Map config=[:]){
     def dir = new File(pwd());
     
