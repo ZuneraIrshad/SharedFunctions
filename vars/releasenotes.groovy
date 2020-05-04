@@ -46,3 +46,4 @@ def call(Map config=[:]){
 // added changes logic in config changes block
 // map is key/value pair 
 // moved echo statments to writer.writeline - so only release notes have that data
+//to-do -- make this an HTML much easier for QA to review. 
