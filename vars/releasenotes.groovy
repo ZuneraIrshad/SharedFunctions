@@ -41,6 +41,7 @@ def call(Map config=[:]){
             }
         }   
     }
+  }
 }
 // added changes logic in config changes block
 // map is key/value pair 
