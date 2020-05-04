@@ -2,7 +2,7 @@ import java.io.*;
 import groovy.io.*;
 // place most groovy code in var dir 
 // noncps is for testing - i need to rewrite this script without CPS and Closure
-@nonCPS
+@NonCPS
 def call(Map config=[:]){
     def dir = new File(pwd());
     
