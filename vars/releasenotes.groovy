@@ -19,6 +19,9 @@ def call(Map config=[:]){
                 }
         }
     }
+    if (config.changes != "false"){
+        echo "changes";
+    }
 }
  
 // map is key/value pair 
