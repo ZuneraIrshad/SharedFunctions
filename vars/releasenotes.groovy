@@ -24,7 +24,8 @@ def call(Map config=[:]){
     def date = new Date()
     def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
     echo "Date and Time IS: " + sdf.format(date)
-    
+    // currentBuild.getNumber - this gives me last build number
+    echo "Build Number IS: ${BUILD_NUMBER}";
     if (config.changes != "false"){
         echo "changes";
     }
